@@ -40,11 +40,6 @@ instructions= Label(root, text="Select the file to be sorted", font="Calibri 25 
 #instructions.grid(column=1,row=0)
 instructions.place(x=125, y=20)
 
-#copyrights
-copyrights= Label(root, text="Developed by Prama Hikvision India - Robotics & Factory Automation Team.", font="Calibri 6 bold", fg="#ff8045", bg="#121212")
-#copyrights.grid(column=1,row=4)
-copyrights.place(x=15, y=380)
-
 #Application Title & Icon  
 root.title("Report Extractor Tool")
 root.iconbitmap(path+"/RET-icon.ico")
